@@ -31,7 +31,6 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
@@ -41,7 +40,6 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
               //  linkedining + newline + // data.labelLinkedIn + data.linkedin
                webing + newline + newline + // data.labelWeb + data.web
